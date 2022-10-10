@@ -1,7 +1,6 @@
 from flask import Flask, request
-from flask_sqlalchemy import SQLAlchemy
 from flask import render_template
-
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
@@ -19,7 +18,7 @@ class Sweets(db.Model):
 
 @app.route('/')
 def index():
-    return 'hello world'
+    return render_template('index.html')
 
 
 @app.route('/sweets')

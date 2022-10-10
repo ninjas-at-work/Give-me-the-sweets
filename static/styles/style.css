@@ -1,0 +1,23 @@
+:root{
+    --primary-color: #0a1118;
+    --primary-color-highlight:#233d54;
+    --bs-body-bg: #f1fbff;
+    --bs-body-font-family: 'Poppins', sans-serif;
+}
+
+.custom-navbar{
+    position:fixed;
+    background-color: black;
+    color:white;
+    /* top:0;
+    left:0;
+    right:0;
+    bottom:0; */
+}
+.custom-navbar ul{
+    list-style-type: none;
+}
+.custom-navbar ul li a{
+    text-decoration: none;
+    color:white;
+}
